@@ -423,6 +423,24 @@ document.body.className += ' jsenabled';
                 <section id="region-main" >
                     <div class="card">
                         <div class="card-body p-0">
+                        <div class="box py-3 d-flex justify-content-center py-3"><div class="simplesearchform ">
+    <form autocomplete="off" action="/dignidad.html" method="post" accept-charset="utf-8" class="mform form-inline simplesearchform">
+        <input type="hidden" name="areaids" value="core_course-course">
+    <div class="input-group">
+        <label for="searchinput-66a28e901755c66a28e8fe627024">
+            <span class="sr-only">Buscar cursos</span>
+        </label>
+        <input type="text" id="searchinput-66a28e901755c66a28e8fe627024" class="form-control" placeholder="Buscar cursos" aria-label="Buscar cursos" name="q" data-region="input" autocomplete="off" value="">
+        <div class="input-group-append">
+            <button type="submit" class="btn  btn-primary search-icon">
+                <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
+                <span class="sr-only">Buscar cursos</span>
+            </button>
+        </div>
+    </div>
+    </form>
+</div>
+</div>
                             <span class="notifications" id="user-notifications"></span>
                             <div role="main"><span id="maincontent"></span>
                             <script>
@@ -474,13 +492,6 @@ esperarjQuery();
                                                 <div id="courses-view-in-progress" data-status="1">
                     <div id="pc-for-in-progress" data-region="paging-content">
         <div data-region="paging-content-item" data-page="1" class="row rows">
-            <div class="courses-view-course-item item-course-sallenet">
-                    <div class="mediasn" onclick="location.href='https://lasallepalencia.sallenet.org/course/view.php?id=3561'" style="cursor:pointer">
-                            <div class="item-chart" style="background-color: transparent">
-                            <img class="icon " alt="" aria-hidden="true" src="https://lasallepalencia.sallenet.org/theme/image.php/sallenetboost/theme_sallenetboost/1721779273/asignaturas/matematicas" />
-                            </div>
-                    </div>
-            </div>
             <div class="courses-view-course-item item-course-sallenet">
                     <div class="mediasn" onclick="location.href='https://lasallepalencia.sallenet.org/course/view.php?id=3487'" style="cursor:pointer">
                             <div class="item-chart" style="background-color: transparent">
@@ -535,24 +546,6 @@ esperarjQuery();
                 </div>
         </div>
     </div>
-</div>
-<div class="box py-3 d-flex justify-content-center py-3"><div class="simplesearchform ">
-    <form autocomplete="off" action="/dignidad.html" method="post" accept-charset="utf-8" class="mform form-inline simplesearchform">
-        <input type="hidden" name="areaids" value="core_course-course">
-    <div class="input-group">
-        <label for="searchinput-66a28e901755c66a28e8fe627024">
-            <span class="sr-only">Buscar cursos</span>
-        </label>
-        <input type="text" id="searchinput-66a28e901755c66a28e8fe627024" class="form-control" placeholder="Buscar cursos" aria-label="Buscar cursos" name="q" data-region="input" autocomplete="off" value="">
-        <div class="input-group-append">
-            <button type="submit" class="btn  btn-primary search-icon">
-                <i class="icon fa fa-search fa-fw " aria-hidden="true"></i>
-                <span class="sr-only">Buscar cursos</span>
-            </button>
-        </div>
-    </div>
-    </form>
-</div>
 </div>
 <br />
 </div>
