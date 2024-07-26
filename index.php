@@ -448,8 +448,8 @@ function esperarjQuery() {
     if (window.jQuery) {
  $(function() {
  var elem = $('#frontpage-course-list').find('h2').detach();
-                               $('div.simplesearchform').parent('.box').removeClass('mdl-align');
-                               $('#frontpage-course-list').css('display', 'none');
+$('div.simplesearchform').parent('.box').removeClass('mdl-align');
+$('#frontpage-course-list').css('display', 'none');
 $('#site-news-forum').css('display', 'none');
  $('div.simplesearchform').parents().closest('div[role=\'main\']').append($('#main-sallenet'));
  $('#main-sallenet').css('display', 'flex');
@@ -512,7 +512,7 @@ esperarjQuery();
                         </div>
                     </div>
             </div>
-            </div>
+            </div>      
         </div>
                     </div>
                     <br/>
